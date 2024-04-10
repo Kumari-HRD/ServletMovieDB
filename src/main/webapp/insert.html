@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert Form</title>
+</head>
+<body>
+	<h1 align="center"> This is for Insertion</h1>
+		<div align="center"> 
+			<form action="insert-movie" method="post" enctype="multipart/form-data">	
+					Movie Name : <br>
+					<input type="text" id="movie_name" name="movie_name" required><br><br>
+					Movie Language : <br>
+					<select name="movie_lang" required="required">
+						<option disabled selected value=> Select a Language </option>
+	            		<option> Kannada</option>
+	            		<option> English</option>
+	            		<option> Hindi</option>
+       		 		</select>	
+       		 		<br> <br>
+       		 		Rating : <br>
+					<input type="text" id="movie_rating" name="movie_rating" required><br><br>
+					Image : <br>
+					<input type="file" id="movie_image" name="movie_image" required><br><br>
+					Genre : <br>
+					<select name="movie_genre" required="required">
+						<option disabled selected value=> Select a Genre</option>
+	            		<option> Horror</option>
+	            		<option> Comedy</option>
+	            		<option> Action</option>
+	            		<option> Thriller</option>            		
+       		 		</select>	
+       		 		<br> <br>				
+       		 		 <button>Add</button>		
+			</form>		
+		</div>
+</body>
+</html>
+
